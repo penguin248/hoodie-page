@@ -281,3 +281,37 @@ footer .container .footer-primary-heading {
   margin-bottom: 20px;
 }
 /* Footer End */
+
+/* Responsiveness Start */
+@media only screen and (max-width: 900px) {
+  header {
+    height: 120vh;
+    text-align: center;
+  }
+
+  .section-one {
+    height: 120vh;
+    text-align: center;
+  }
+
+  .header-img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .main-headings {
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+
+  .primary-headings {
+    width: 400px;
+  }
+
+  .customer .customer-img .img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Responsiveness End */
